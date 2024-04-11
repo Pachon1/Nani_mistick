@@ -6,11 +6,11 @@ const handler = async (m, {isOwner, isAdmin, conn, text, participants, args, com
   }
   const pesan = args.join` `;
   const oi = `*𝙼𝙴𝙽𝚂𝙰𝙹𝙴:* ${pesan}`;
-  let teks = `*⺀💖𝗔𝗖𝗧𝗜𝗩𝗔𝗧𝗘 𝗣𝗜𝗡𝗖𝗛𝗘 𝗔𝗗𝗢𝗥𝗡𝗢💖⺀*\n\n❏ ${oi}\n\n❏ *𝙴𝚃𝙸𝚀𝚄𝙴𝚃𝙰𝚂:*\n`;
+  let teks = `*⺀💩𝘼𝙋𝘼𝙍𝙀𝘾𝙀 𝙈𝘼𝙇𝘿𝙄𝙏𝙊 𝙄𝙉𝙎𝙀𝙍𝙑𝙄𝘽𝙇𝙀 𝘿𝙀 𝙈𝙍𝘿💩⺀*\n\n❏ ${oi}\n\n❏ *𝙴𝚃𝙸𝚀𝚄𝙴𝚃𝙰𝚂:*\n`;
   for (const mem of participants) {
-    teks += `┣➥🦥 @${mem.id.split('@')[0]}\n`;
+    teks += `┣➥🫦 @${mem.id.split('@')[0]}\n`;
   }
-  teks += `*└*💖𝗠𝗜𝗖𝗛 𝗕𝗢𝗧💖\n\n*▌│█║▌║▌║║▌║▌║▌║█*`;
+  teks += `*└*💖𝙎𝙃𝙐𝙋𝙀𝙍 𝙉𝘼𝙉𝙄 𝘽𝙊𝙏💖\n\n*▌│█║▌║▌║║▌║▌║▌║█*`;
   conn.sendMessage(m.chat, {text: teks, mentions: participants.map((a) => a.id)} );
 };
 handler.help = ['tagall <mesaje>', 'invocar <mesaje>'];
