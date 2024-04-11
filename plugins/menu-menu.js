@@ -21,14 +21,14 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
     const str = `╭═══〘 ✯✯✯✯✯✯✯✯✯ 〙══╮
-║    ◉— *💖𝗠𝗜𝗖𝗛 𝗕𝗢𝗧💖* —◉
+║    ◉— *💖𝙎𝙃𝙐𝙋𝙀𝙍 𝙉𝘼𝙉𝙄 𝘽𝙊𝙏💖* —◉
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡║
 ║➤ *𝗛ola, ${taguser}*
 ║≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡║
 ║➤ *Owner:* MICH
-║➤ *Numero:* wa.me/529934556133
-║➤ *Bot ofc:* wa.me/529934556133
-║➤ *Bot ofc 2:* wa.me/529934556133
+║➤ *Numero:* wa.me/525634990524
+║➤ *Bot ofc:* wa.me/525634990524
+║➤ *Bot ofc 2:* wa.me/525634990524
 ║➤ *PayPal:*https://www.paypal.me/pachonff
 ║➤ *Fecha:* ${date}
 ║➤ *Tiempo activo:* ${uptime}
@@ -42,7 +42,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┣ *🧰 Experiencia:* ${exp}
 ┣ *⚓ Rango:* ${role}
 ┣ *💎 Diamantes:* ${limit}
-┣ *👾 MichCoins:* ${money}
+┣ *👾 NaniCoins:* ${money}
 ┣ *🪙 Tokens:* ${joincount}
 ┣ *🎟️ Premium:* ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌') || ''}
 ┗━━━━━━━━━━━━━━━━┛
